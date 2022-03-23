@@ -121,6 +121,11 @@ header {
 
 .data-card h2 {
 
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%);
+
     width: 160px;
     height: 160px;
     border-radius: 80px;
@@ -133,13 +138,22 @@ header {
 
 
 .data-card h4 {
+    position: absolute;
+    left: 50%;
+    top: 230px;
+    transform: translate(-50%);
     font-size: 18px;
     font-weight: 400;
     border-bottom: var(--primary) 2px solid;
     text-align: center;
 }
 
-.data-card h5 {    
+.data-card h5 {  
+    position: absolute;
+    left: 50%;
+    top: 270px;
+    transform: translate(-50%);
+
     font-size: 18px;
     font-weight: 700;
     text-align: center;
