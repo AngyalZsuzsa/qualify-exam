@@ -29,7 +29,7 @@ textarea {
 
 button input textarea select {
     appearance: none !important;
-    -webkit-appearance: none !important; 
+    -webkit-appearance: none !important;
     border-radius: 0;
 }
 
@@ -43,4 +43,54 @@ button input textarea select {
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    /* max-width: 1200px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    justify-content: center;
+    margin: auto;
+
+    background-color: var(--primary);
+
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#fixed {
+    overflow: hidden;
+    background-color: var(--secondary);
+    z-index: 1;
+}
+
+.material-icons.md-36 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Material Icons';
+    font-size: 36px;
+    color: var(--primary);
+}
+
+.data-card {
+    width: 300px;
+    height: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 120px;
+    padding: 40px;
+
+    background-color: var(--secondary);
+    color: var(--primary)
 }
