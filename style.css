@@ -84,8 +84,8 @@ header {
 
 .data-card {
     position: relative;
-    width: 300px;
-    height: 360px;
+    width: 350px;
+    height: 380px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -190,12 +190,12 @@ button {
 }
 
 .details {
-    font-size: 14px;
-    
     position: absolute;
     top:50%;
     left: 40px;
     transform: translateY(-50%);
+
+    font-size: 14px;
     color: var(--primary);
 }
 
@@ -210,11 +210,15 @@ button {
 
 button:hover {
     background-color: var(--primary); 
-    color: var(--secondary);
     border: var(--secondary) 1px solid;
 }
 
+
 button:hover .material-icons.md-36 {
+    color: var(--secondary);
+}
+
+button:hover .details {
     color: var(--secondary);
 
 }
