@@ -4,7 +4,7 @@ function dataView(data, index) {
             <h2>${data.sub}</h2>
             <h4>${data.title}</h4>
             <h5>${data.text}</h5>
-            <button><span class="details">Save</span><span class="material-icons md-36">arrow_forward</span></button>
+            <button><span class="details">Save</span><span class="material-icons arrow md-36">arrow_forward</span></button>
         </div>`
 }
 
