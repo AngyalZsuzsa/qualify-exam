@@ -191,3 +191,15 @@ button:hover .material-icons.md-36 {
     color: var(--secondary);
 
 }
+
+@media screen and (max-width: 720px) {
+    #root {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #root {
+        grid-template-columns: auto ;
+    }
+}

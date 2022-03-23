@@ -6,37 +6,37 @@ const datas = [
     },
     {
         title: "Euro",
-        sub: "E",
+        sub: "€",
         text: "EUR"
     },
     {
+        title: "Chinese Yuan",
+        sub: "¥",
+        text: "CNY"
+    },
+    {
         title: "Thai Baht",
-        sub: "$",
+        sub: "฿",
         text: "THB"
     },
     {
         title: "British Pound Sterling",
-        sub: "$",
+        sub: "£",
         text: "GBP"
     },
     {
         title: "Ghanaian Cedi",
-        sub: "$",
+        sub: "₵",
         text: "GHS"
     },
     {
         title: "Japanese Yen",
-        sub: "$",
+        sub: "￥",
         text: "JPY"
     },
     {
         title: "Polish Zloty",
-        sub: "$",
+        sub: "zł",
         text: "PLN"
-    },
-    {
-        title: "US Dollar",
-        sub: "$",
-        text: "USD"
-    },
+    }    
 ]
