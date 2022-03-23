@@ -76,6 +76,7 @@ header {
 .material-icons.md-36 {
     display: flex;
     justify-content: space-between;
+    
     font-family: 'Material Icons';
     font-size: 36px;
     color: var(--primary);
@@ -98,9 +99,13 @@ header {
 }
 
 .material-icons.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 10px;
     transform: translateY(-50%);
 
     width: 60px;
@@ -108,12 +113,16 @@ header {
     border-radius: 30px;
     background-color: var(--primary);
     color: var(--secondary);
+    font-size: 36px;
 }
 
 .material-icons.account {
+    
+
     position: absolute;
     top: 50%;
     left: 0;
+
     transform: translateY(-50%);
     font-size: 36px;
     color: var(--primary);
