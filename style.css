@@ -40,3 +40,7 @@ button input textarea select {
     --primary: #666;
     --secondary: #fff;
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
