@@ -45,6 +45,10 @@ button input textarea select {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: var(--primary);
+}
+
 #root {
     max-width: 1200px;
     display: grid;
@@ -52,8 +56,6 @@ button input textarea select {
     gap: 60px;
     justify-content: center;
     margin: auto;
-
-    background-color: var(--primary);
 
 }
 
@@ -157,7 +159,7 @@ button {
     
     background-color: var(--secondary);
     color: rgba(0,0,0,0.25); 
-    box-shadow: rgba(0,0,0,0.25) 10px 5px 5px 0;
+    box-shadow:  10px 5px 5px rgba(0,0,0,0.25);
     
     cursor: pointer;
 }
@@ -167,12 +169,12 @@ button {
     
     position: absolute;
     top:50%;
-    left: 10px;
+    left: 40px;
     transform: translateY(-50%);
-
+    color: var(--primary);
 }
 
-.material-icons.account {
+.material-icons.arrow {
     position: absolute;
     top: 50%;
     right: 0;
